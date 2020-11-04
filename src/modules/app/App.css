@@ -1,0 +1,29 @@
+.App {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+	height: 90vh;
+}
+
+.score-sheet {
+	display: flex;
+	justify-content: space-around;
+	width: 200px;
+}
+
+.canvas-box {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.text-box {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.text-style {
+	margin-top: 10px;
+	color: #5f9ea0;
+	text-align: center;
+}
